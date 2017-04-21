@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XingfuViewController">
+            <connections>
+                <outlet property="scrollview" destination="Y8L-yr-33c" id="K3O-TG-oud"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="1881"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y8L-yr-33c">
+                    <rect key="frame" x="-1" y="0.0" width="377" height="1878"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faxian_xinfu_01.png" translatesAutoresizingMaskIntoConstraints="NO" id="v9c-B4-Vu1">
+                            <rect key="frame" x="0.0" y="0.0" width="377" height="194"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="194" id="g9V-qA-J80"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faxian_xinfu_02.png" translatesAutoresizingMaskIntoConstraints="NO" id="ur3-Qw-bPE">
+                            <rect key="frame" x="0.0" y="194" width="377" height="172"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="172" id="T8n-aq-GGe"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faxian_xinfu_03.png" translatesAutoresizingMaskIntoConstraints="NO" id="t9d-Y5-xnt">
+                            <rect key="frame" x="0.0" y="365" width="377" height="172"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="172" id="SVz-QJ-mkZ"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faxian_xinfu_04.png" translatesAutoresizingMaskIntoConstraints="NO" id="aAR-Jl-dah">
+                            <rect key="frame" x="0.0" y="537" width="377" height="178"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="178" id="Eky-tz-Srj"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faxian_xinfu_05.png" translatesAutoresizingMaskIntoConstraints="NO" id="GK9-a8-9rp">
+                            <rect key="frame" x="0.0" y="715" width="377" height="178"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="178" id="oOg-7c-F9g"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faxian_xinfu_06.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Rc-eo-PV2">
+                            <rect key="frame" x="0.0" y="892" width="377" height="178"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="178" id="HiZ-R2-qxq"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faxian_xinfu_07.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cwh-MY-vUC">
+                            <rect key="frame" x="0.0" y="1070" width="377" height="178"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="178" id="T91-GX-eI3"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faxian_xinfu_08.png" translatesAutoresizingMaskIntoConstraints="NO" id="fyY-Xh-tZH">
+                            <rect key="frame" x="0.0" y="1248" width="377" height="177"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="177" id="aUi-FY-gTK"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faxian_xinfu_09.png" translatesAutoresizingMaskIntoConstraints="NO" id="G7l-NN-xdq">
+                            <rect key="frame" x="0.0" y="1424" width="377" height="177"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="177" id="kQN-hG-XAh"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faxian_xinfu_10.png" translatesAutoresizingMaskIntoConstraints="NO" id="Err-8B-z6P">
+                            <rect key="frame" x="2" y="1600" width="373" height="177"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="177" id="01N-b5-qew"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dqn-Qo-YbA">
+                            <rect key="frame" x="38" y="1785" width="301" height="77"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="77" id="4bA-4U-Jfo"/>
+                            </constraints>
+                            <state key="normal" image="gm.png"/>
+                            <connections>
+                                <action selector="liji:" destination="-1" eventType="touchUpInside" id="NbT-Qa-Aae"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="v9c-B4-Vu1" firstAttribute="centerX" secondItem="Y8L-yr-33c" secondAttribute="centerX" id="2Go-XY-V1E"/>
+                        <constraint firstItem="ur3-Qw-bPE" firstAttribute="trailing" secondItem="t9d-Y5-xnt" secondAttribute="trailing" id="2Z8-jl-8XT"/>
+                        <constraint firstItem="ur3-Qw-bPE" firstAttribute="leading" secondItem="t9d-Y5-xnt" secondAttribute="leading" id="2iu-nB-dYi"/>
+                        <constraint firstItem="G7l-NN-xdq" firstAttribute="centerX" secondItem="Err-8B-z6P" secondAttribute="centerX" id="4wx-zm-DdB"/>
+                        <constraint firstItem="t9d-Y5-xnt" firstAttribute="leading" secondItem="aAR-Jl-dah" secondAttribute="leading" id="6GC-S1-xNQ"/>
+                        <constraint firstItem="Cwh-MY-vUC" firstAttribute="top" secondItem="5Rc-eo-PV2" secondAttribute="bottom" id="At3-Ts-eG3"/>
+                        <constraint firstItem="fyY-Xh-tZH" firstAttribute="leading" secondItem="G7l-NN-xdq" secondAttribute="leading" id="EWJ-D4-fmM"/>
+                        <constraint firstItem="v9c-B4-Vu1" firstAttribute="leading" secondItem="Y8L-yr-33c" secondAttribute="leading" id="FYH-ce-HrJ"/>
+                        <constraint firstAttribute="bottom" secondItem="Dqn-Qo-YbA" secondAttribute="bottom" constant="16" id="JHz-92-dbI"/>
+                        <constraint firstItem="5Rc-eo-PV2" firstAttribute="leading" secondItem="Cwh-MY-vUC" secondAttribute="leading" id="JNU-kd-p3e"/>
+                        <constraint firstItem="GK9-a8-9rp" firstAttribute="leading" secondItem="5Rc-eo-PV2" secondAttribute="leading" id="LTs-TK-Qd8"/>
+                        <constraint firstItem="t9d-Y5-xnt" firstAttribute="top" secondItem="Y8L-yr-33c" secondAttribute="top" constant="365" id="Lqg-5E-unP"/>
+                        <constraint firstItem="GK9-a8-9rp" firstAttribute="top" secondItem="aAR-Jl-dah" secondAttribute="bottom" id="MyN-0p-K1Y"/>
+                        <constraint firstItem="G7l-NN-xdq" firstAttribute="top" secondItem="Y8L-yr-33c" secondAttribute="top" constant="1424" id="NI1-8E-5rm"/>
+                        <constraint firstItem="fyY-Xh-tZH" firstAttribute="trailing" secondItem="G7l-NN-xdq" secondAttribute="trailing" id="OLz-SJ-kVt"/>
+                        <constraint firstItem="v9c-B4-Vu1" firstAttribute="top" secondItem="Y8L-yr-33c" secondAttribute="top" id="T7n-L7-Uo2"/>
+                        <constraint firstAttribute="trailing" secondItem="v9c-B4-Vu1" secondAttribute="trailing" id="V2W-BG-qiU"/>
+                        <constraint firstItem="aAR-Jl-dah" firstAttribute="trailing" secondItem="GK9-a8-9rp" secondAttribute="trailing" id="WGE-RM-iZv"/>
+                        <constraint firstItem="ur3-Qw-bPE" firstAttribute="top" secondItem="v9c-B4-Vu1" secondAttribute="bottom" id="Wuv-rw-69U"/>
+                        <constraint firstItem="Cwh-MY-vUC" firstAttribute="leading" secondItem="fyY-Xh-tZH" secondAttribute="leading" id="X6D-Kg-Lne"/>
+                        <constraint firstItem="t9d-Y5-xnt" firstAttribute="trailing" secondItem="aAR-Jl-dah" secondAttribute="trailing" id="YBt-Ww-ucI"/>
+                        <constraint firstItem="Cwh-MY-vUC" firstAttribute="trailing" secondItem="fyY-Xh-tZH" secondAttribute="trailing" id="Zhl-XD-H8s"/>
+                        <constraint firstItem="aAR-Jl-dah" firstAttribute="leading" secondItem="GK9-a8-9rp" secondAttribute="leading" id="aIb-so-gud"/>
+                        <constraint firstItem="GK9-a8-9rp" firstAttribute="trailing" secondItem="5Rc-eo-PV2" secondAttribute="trailing" id="gIo-oy-vMQ"/>
+                        <constraint firstItem="Err-8B-z6P" firstAttribute="centerX" secondItem="Dqn-Qo-YbA" secondAttribute="centerX" id="jAS-gj-tx3"/>
+                        <constraint firstItem="Err-8B-z6P" firstAttribute="leading" secondItem="Y8L-yr-33c" secondAttribute="leading" constant="2" id="lEK-FQ-PIP"/>
+                        <constraint firstItem="v9c-B4-Vu1" firstAttribute="trailing" secondItem="ur3-Qw-bPE" secondAttribute="trailing" id="lrl-np-f8V"/>
+                        <constraint firstItem="Err-8B-z6P" firstAttribute="top" secondItem="Y8L-yr-33c" secondAttribute="top" constant="1600" id="m1v-JG-c57"/>
+                        <constraint firstItem="Dqn-Qo-YbA" firstAttribute="leading" secondItem="Y8L-yr-33c" secondAttribute="leading" constant="38" id="nMy-bb-hVq"/>
+                        <constraint firstItem="v9c-B4-Vu1" firstAttribute="leading" secondItem="ur3-Qw-bPE" secondAttribute="leading" id="oie-Ia-NrU"/>
+                        <constraint firstItem="5Rc-eo-PV2" firstAttribute="trailing" secondItem="Cwh-MY-vUC" secondAttribute="trailing" id="pjr-vF-k6e"/>
+                        <constraint firstItem="Dqn-Qo-YbA" firstAttribute="top" secondItem="Err-8B-z6P" secondAttribute="bottom" constant="8" symbolic="YES" id="rKr-zD-2Sz"/>
+                        <constraint firstItem="5Rc-eo-PV2" firstAttribute="top" secondItem="Y8L-yr-33c" secondAttribute="top" constant="892" id="sHp-J7-AEA"/>
+                        <constraint firstItem="aAR-Jl-dah" firstAttribute="top" secondItem="t9d-Y5-xnt" secondAttribute="bottom" id="xf4-f2-jkr"/>
+                        <constraint firstItem="fyY-Xh-tZH" firstAttribute="top" secondItem="Cwh-MY-vUC" secondAttribute="bottom" id="zVA-Ap-SY8"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="delegate" destination="i5M-Pr-FkT" id="dY2-yS-exa"/>
+                    </connections>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Y8L-yr-33c" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="NSm-DG-u7D"/>
+                <constraint firstAttribute="bottom" secondItem="Y8L-yr-33c" secondAttribute="bottom" constant="3" id="vIQ-zj-6y3"/>
+                <constraint firstItem="Y8L-yr-33c" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="-1" id="xUm-u9-kGm"/>
+                <constraint firstItem="Y8L-yr-33c" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="zdf-0l-7PV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="30.5" y="80.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="faxian_xinfu_01.png" width="640" height="288"/>
+        <image name="faxian_xinfu_02.png" width="640" height="287"/>
+        <image name="faxian_xinfu_03.png" width="640" height="288"/>
+        <image name="faxian_xinfu_04.png" width="640" height="287"/>
+        <image name="faxian_xinfu_05.png" width="640" height="288"/>
+        <image name="faxian_xinfu_06.png" width="640" height="287"/>
+        <image name="faxian_xinfu_07.png" width="640" height="288"/>
+        <image name="faxian_xinfu_08.png" width="640" height="287"/>
+        <image name="faxian_xinfu_09.png" width="640" height="288"/>
+        <image name="faxian_xinfu_10.png" width="640" height="287"/>
+        <image name="gm.png" width="436" height="120"/>
+    </resources>
+</document>

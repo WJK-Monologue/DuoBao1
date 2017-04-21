@@ -1,0 +1,26 @@
+PODS:
+  - FMDB (2.6):
+    - FMDB/standard (= 2.6)
+  - FMDB/standard (2.6)
+  - LKDBHelper (2.1.8):
+    - FMDB
+  - MBProgressHUD (0.9.2)
+  - ReactiveCocoa (2.1.8):
+    - ReactiveCocoa/Core (= 2.1.8)
+    - ReactiveCocoa/no-arc (= 2.1.8)
+  - ReactiveCocoa/Core (2.1.8):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.1.8)
+
+DEPENDENCIES:
+  - LKDBHelper (~> 2.1.8)
+  - MBProgressHUD (~> 0.8)
+  - ReactiveCocoa (= 2.1.8)
+
+SPEC CHECKSUMS:
+  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  LKDBHelper: 1b55f67e44f34af8828b31aa36b36141fdde03a8
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  ReactiveCocoa: f89f2e009a87951b50321bf9feb958823fcc617e
+
+COCOAPODS: 0.39.0

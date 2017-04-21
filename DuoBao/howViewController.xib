@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="howViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zmtd4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0vK-4S-Ut5">
+                    <rect key="frame" x="0.0" y="64" width="320" height="143"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z8h-xs-n0l">
+                    <rect key="frame" x="0.0" y="208" width="320" height="360"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <string key="text">收徒秘籍
+
+①【抛砖引玉】
+直接将应用内的邀请链接分享到QQ群、微信群、QQ空间、朋友圈，诚邀朋友来一起来全民购宝把惊喜带回家！注册并充值的徒弟越多，亲每天获得的积分就越多！
+②【扩大战线】
+除了熟人圈子，亲如何让陌生人也获得亲的邀请码呢？学会利用网络的力量！在百度知道、新浪爱问、知乎等问答社区，热心回答关于夺宝、赚钱、生活类的问题，告诉Ta们怎么在全民购宝，然后附上亲的二维码或返利ID.
+如果亲是网络社区达人，还有一个高阶秘籍！在百度贴吧、天涯、豆瓣、猫扑等兴趣社区，发布关于在全民购宝的主题帖并留下亲的二维码或返利ID，说不定有意想不到的效果哦！
+③【远交近攻】
+亲友聚会、同事聚餐、好友约会时，面对面向朋友推荐“全民购宝”，让Ta直接扫描亲的返利二维码，秒变亲的徒弟！传授给Ta躺着中奖，不中枪的独门秘诀吧~</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <point key="canvasLocation" x="31" y="95"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="zmtd4.jpg" width="720" height="200"/>
+    </resources>
+</document>

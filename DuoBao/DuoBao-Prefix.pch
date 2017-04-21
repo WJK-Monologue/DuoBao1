@@ -1,0 +1,151 @@
+//
+//  DuoBao-Prefix.pch
+
+#ifndef DuoBao_Prefix_pch
+#define DuoBao_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* DuoBao_Prefix_pch */
+
+#define  KEY_USERNAME_PASSWORD @"com.company.app.usernamepassword"
+#define  KEY_USERNAME @"com.company.app.username"
+#define  KEY_PASSWORD @"com.company.app.password"
+
+#define FullScreen   [[UIScreen mainScreen] bounds]
+#define PublicImage(imageName) [Tool imageInPublic:(imageName)]
+#define  WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+#define UserDefault [NSUserDefaults standardUserDefaults]  //数据存储
+
+#define  FitWIDTH ([UIScreen mainScreen].bounds.size.width)/375
+#define  FitHEIGHT ([UIScreen mainScreen].bounds.size.height)/667
+
+#define kTimeValue 60
+
+// 标记  接口加密公钥
+//4taUT7ogm3Ky7Ddv  阿里云
+//6tmUT6ogm3Ky5Ddv   原先
+//3.9 改密钥
+#define EncryptPublicKey @"staUT27gm3KydDdv"
+
+//改动
+#define APPScheme @"caiquanjinbao"
+
+/******* 消息通知名称 *******/
+#define kReachableNetworkStatusChange @"ReachableNetworkStatusChange" //网络状态改变
+
+//刷新首页数据
+#define kUpdateHomePageData @"kUpdateHomePageData"
+
+//刷新揭晓数据
+#define kUpdateJieXiaoData @"kUpdateJieXiaoData"
+
+//刷新购物车数据
+#define kUpdateShopCartData @"kUpdateShopCartData"
+
+//更新个人信息
+#define kUpdateUserInfo @"kUpdateUserInfo"
+
+//登录成功
+#define kLoginSuccess @"LoginSuccess"
+
+//在浏览器中支付成功
+#define kPaySuccessInSafari @"kPaySuccessInSafari"
+
+//退出登录
+#define kQuitLoginSuccess @"QuitLoginSuccess"
+
+/******* 爱贝支付信息 *******/
+
+//商户在爱贝注册的应用ID
+#define mOrderUtilsAppId @""
+
+//渠道号
+#define mOrderUtilsChannel @"appstore"
+
+//商户验签公钥
+//#define  mOrderUtilsCheckResultKey @""  记录没用到
+
+//商户在爱贝注册的应用ID对应的应用私钥
+//#define  mOrderUtilsCpPrivateKey @""  记录没用到
+
+/******* 微信支付、支付宝账号信息 *******/
+
+//微信支付回调
+#define kWeiXinPayNotif @"kWeiXinPayNotif"
+
+
+// 标记 。全部的key都在这里   微信AppID
+//#define WeiXinID  @"wx00911a1c0579e979"
+#define WeiXinID  @"wxc8a76f9028041060"
+
+
+//商户号
+#define WeiXinPiD @"1447207002"
+
+//加密用的key           微信AppSecret
+//#define WeiXinAppKey @"3b8cbbb2338b7fe47e53225c81021d7b"
+#define WeiXinAppKey @"90c9dc501f804c37c46bdd371453e009"
+
+
+//支付宝pid
+#define AliPayId @"2088911449739401"//pid
+
+#define AliPayAccount @"1684966666@qq.com"//收款账户
+
+//秘钥    无关，接口被屏蔽了
+#define AliPayPrivateKey @"MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAM3Z6nMFT7NbW1M0dJ6owHU5hi/jftu5ArNAHo/kg4pxMp7gS24Zt12BmVVRyYoelfGZN2d8dH3hlKw6L2C/vOfLBpIYJsi0Q1kidzPayjglgBvNZmsiO17IWR1gJFUyCnMtRT9SMYTthwJL95VXvTdscOBDqCX5eoSC1QXzwj0xAgMBAAECgYBXKZySU39p7JcA5kczHzVO7aqaAHQoyXARQmcueo4QQtoyV7rYxd7Uoxmv/M+fwk+vWzcQhKw22RvAyWpiRw3PPYEPBPiuZ9NCcTwXZklwrbpZugGsKjWxnTfPy3M769vFY7yGsaroE41/YhWpnrCpKAOPkSjsoVmpoDFeizAUoQJBAPJfZ/x5WQfQdrkvObbCwB5gBTgjQ1X+RYwmeQ249iRxa6lYnEVbi6zE93ZmZPS27LEhDWsWcWTfbLGSq3p8mDUCQQDZbNZ40XBVSrvYYoV+Vh09p8ch0spnGDe+aG8eHxDnxvWfeL7j3G8EmFE1R0d7yFF6c608wCWpKCy0ZLz+dciNAkBEz01IYnMiQs7R+FRcTKIafYw9ydUeHthD19BaUv6ejgzQwTVsg3b+D9VpqdxTlXNRPl7+3hpHVx8Wsts4JRNZAkBBD7OCBdIig7GAR8MAkg4/8+O/uE7+2J1dqeyOS+eII94+MSiWENFbw6SRV9oJLWFMTi8pvanHW5E9DeQMFPzFAkBVSBEbLP2ILO0vXoYRQA4y+leRZ0ru0tPHdENAq2s+R3qZRUPrQF6GYYcPlGJiy2L4wx1JhckxUua9nJH4kT8q"
+
+
+/******* 各平台key值 *******/
+
+//  极光 推送  595311df4cde2943f71af007  该AppKey可以。 app上线的key，生产环境被深圳的开发环境删掉了
+
+//4dd62da1df6c440a6be60b3c  测试的环境key
+#define JGPushKey @"4dd62da1df6c440a6be60b3c"
+//  appkey
+//#define QQKey @"1105935279"
+
+//#define QQSecret @"KaVFQC67TNzBeZ8C"
+
+#define QQKey @"1106011026"
+
+#define QQSecret @"ZOExJ8aUwR7jT26j"
+
+#define WeiBoKey @"2441645604"
+
+#define WeiBoSecret @"eaddac6579cb649363c00f8aad3bc0a1"
+
+/******* 全局头文件 *******/
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import <ShareSDK/ShareSDK.h>
+#import "WXApi.h"
+#import "WeiboSDK.h"
+#import <TencentOpenAPI/QQApiInterface.h>
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <AlipaySDK/AlipaySDK.h>
+#import "Tool.h"
+#import "ShareManager.h"
+#import "HttpHelper.h"
+#import "URLDefine.h"
+#import "UIView+Additions.h"
+#import "MBProgressHUD.h"
+#import "MenuViewController.h"
+#import "MJRefresh.h"
+#import "JPUSHService.h"
+#import "NSDiction+External.h"
+#import "UIImageView+WebCache.h"
+#import "NSString+WPAttributedMarkup.h"
+#import "WPAttributedStyleAction.h"
+
+
+#endif
+
+
